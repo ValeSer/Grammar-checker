@@ -29,7 +29,10 @@ storyWords = storyWords.map( word => {
   console.log(badWordIndex);
   storyWords[badWordIndex] = 'really';
 
-
+  const lengthCheck = storyWords.every(word => {
+    word.length <= 10;
+  })
+  console.log(lengthCheck);
 
 
 
