@@ -22,6 +22,12 @@ storyWords = storyWords.map( word => {
     }
   })
 
+  badWordIndex = storyWords.findIndex( word => {
+    if (word === badWord) { 
+      return word}
+  });
+  console.log(badWordIndex);
+
 
 
 
