@@ -36,10 +36,12 @@ storyWords = storyWords.map( word => {
 
   storyWords = storyWords.map( word => {
     if (word.length > 10) {
-      console.log(word);
-      word = 'dazzling';
-      console.log(word);
+       word = 'dazzling';
     }
+    return word
+  })
+  console.log(storyWords.join(' '));
+  
 
 
 
