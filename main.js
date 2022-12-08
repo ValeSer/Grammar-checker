@@ -27,6 +27,8 @@ storyWords = storyWords.map( word => {
       return word}
   });
   console.log(badWordIndex);
+  storyWords[badWordIndex] = 'really';
+
 
 
 
