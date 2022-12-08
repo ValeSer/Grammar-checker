@@ -7,9 +7,9 @@ let badWord = 'freaking';
 
 //console.log(storyWords);
 
-const count = 0;
-storyWords.forEach( () => {})
-
+let count = 0;
+storyWords.forEach(word => count++);
+console.log(count);
 
 
 
