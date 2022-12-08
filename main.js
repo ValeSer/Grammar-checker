@@ -34,6 +34,13 @@ storyWords = storyWords.map( word => {
   })
   console.log(lengthCheck);
 
+  storyWords = storyWords.map( word => {
+    if (word.length > 10) {
+      console.log(word);
+      word = 'dazzling';
+      console.log(word);
+    }
+
 
 
 
